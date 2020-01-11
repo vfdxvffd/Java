@@ -16,8 +16,11 @@ public class LinkedHashSetDemo {
         set.add("java");
         set.add("xswl");
 
-        for(Iterator iter = set.iterator(); iter.hasNext();){
-            System.out.println(iter.next());
+        // for(Iterator iter = set.iterator(); iter.hasNext();){
+        //     System.out.println(iter.next());
+        // }
+        for (Object obj : set) {
+            System.out.println(obj);
         }
     }
 }
