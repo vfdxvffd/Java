@@ -1,0 +1,3 @@
+它两可以指定编解码方式，即编解码表
+new String("utf-8");
+getBytes("utf-8");
